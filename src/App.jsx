@@ -3,9 +3,14 @@ import Create from "./components/Create";
 import Product from "./components/Product";
 function App() {
   return (
-    <div className=" max-w-screen bg-slate-500 flex flex-col">
+    <div className=" max-w-screen bg-slate-500 flex flex-col gap">
       <Create />
-      <Product />
+      <div className="w-full grid grid-cols-4">
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+      </div>
     </div>
   );
 }
