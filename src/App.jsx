@@ -1,10 +1,10 @@
 import "./App.css";
-
+import Create from "./components/Create";
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div className=" max-w-screen bg-slate-500">
+      <Create />
+    </div>
   );
 }
 
